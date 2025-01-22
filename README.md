@@ -1,11 +1,82 @@
-# Prodigy InfoTech Internship: Data Analysis Insights
-Welcome to the Prodigy InfoTech Internship repository! This repository documents Task 1 of my internship journey, focusing on data cleaning, analysis, and uncovering insightful patterns.
-# Task Overview
-Task 1 involved a comprehensive exploration of Prodigy InfoTech's dataset, emphasizing reshaping and refining data for accurate analysis. The primary objectives included rectifying dataset structure and ensuring consistency in column data types to establish a solid foundation for meaningful insights.
-# Key Insights
-Data Cleaning: Implemented measures to rectify dataset shape and adjusted column data types meticulously to align with data nature, ensuring coherence for seamless analysis.
-Data Exploration: Utilized analytical techniques to uncover dataset characteristics, distributions, and correlations.
-# Knowledge Gained
-Task 1 provided invaluable experience in data preprocessing and exploratory analysis, enhancing skills in data cleaning, exploratory data analysis (EDA), and deriving actionable insights.
-# Stay Updated
-Don't forget to star ⭐ this repository to stay updated with the latest developments and insights!
+# 🌍 World Population Data Analysis
+
+## 📊 Project Overview
+This project analyzes global population trends, creates insightful visualizations, and aims to gain a deeper understanding of demographic patterns. We leverage various data visualization and analysis techniques to derive meaningful insights from the dataset.
+
+## 👨‍💻 Author
+- **Github:** [Amolak Singh](https://github.com/Amolak001)
+- **LinkedIn:** [Amolak Singh](https://www.linkedin.com/in/amolak--singh/)
+
+## 🔗 Project Links
+- **Google Colab Notebook**: [World Population data analysis.ipynb](https://colab.research.google.com/drive/1lYsJfULR9zogBDFUFkWdrnK_GhBZEXBg?usp=sharing)
+- **Dataset**: Included in the repository as `Total.csv` and `Metadata.csv`
+
+## 📂 File Structure
+```
+World-Population-Data-Analysis/
+├── README.md
+├── World_Population.pbix
+├── World_Population_data_analysis.ipynb
+├── total.csv
+├── metadata.csv
+└── total_cleaned.csv
+```
+
+1. **README.md**: This file, containing detailed information about the project.
+2. **World_Population.pbix**: A Power BI file for advanced visualization of the world population dataset.
+3. **World_Population_data_analysis.ipynb**: A Jupyter Notebook containing Python code for data analysis and visualization.
+4. **Total.csv**: Raw population data for all countries from 1960 to 2022.
+5. **Metadata.csv**: Additional metadata about countries (e.g., income group, region).
+6. **total_cleaned.csv**: The cleaned dataset used for analysis.
+
+## 📜 Data Processing Steps
+
+1. **Load Data**: Import `total.csv` and `metadata.csv` using pandas.
+2. **Data Inspection**: Examine the structure of the datasets.
+3. **Data Cleaning**: Remove unnecessary columns and handle missing values.
+4. **Merge Datasets**: Combine population data with country metadata.
+5. **Reshape the Data**: Convert from wide to long format for easier analysis.
+6. **Save Cleaned Data**: Export the processed data for further analysis.
+
+## 📊 Key Insights
+- Identified global population trends and patterns
+- Created impactful visualizations using Python and Power BI
+- Derived actionable insights for decision-making and policy development
+
+## 🧠 Knowledge Gained
+- Data cleaning and preprocessing techniques
+- Advanced visualization using Python libraries and Power BI
+- Interpretation of demographic data and trend analysis
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Python 3.x
+- Jupyter Notebook
+- Required libraries: pandas, numpy, matplotlib, seaborn
+- Power BI (optional, for advanced visualizations)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Amolak001/World-Population-Data-Analysis.git
+   ```
+
+2. Install required Python libraries:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Open and run the Jupyter Notebook:
+   ```bash
+   jupyter notebook World_Population_data_analysis.ipynb
+   ```
+
+4. (Optional) Open `World_Population.pbix` in Power BI for additional visualizations.
+
+## ⭐ Stay Updated
+Star this repository to keep track of the latest developments and insights!
+
+## 📑 Keywords
+Data Science, Data Visualization, World Population, Python, Power BI
