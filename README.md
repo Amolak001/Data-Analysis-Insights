@@ -15,11 +15,12 @@ This project analyzes global population trends, creates insightful visualization
 ```
 World-Population-Data-Analysis/
 ├── README.md
-├── World_Population.pbix
-├── World_Population_data_analysis.ipynb
+├── World_Population_Analysis.pbix
+├── World_Population_analysis.ipynb
+├── World_Population_analysis.py
 ├── total.csv
 ├── metadata.csv
-└── total_cleaned.csv
+└── New_cleaned_df.csv
 ```
 
 1. **README.md**: This file, containing detailed information about the project.
@@ -60,7 +61,7 @@ World-Population-Data-Analysis/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Amolak001/World-Population-Data-Analysis.git
+   git clone https://github.com/Amolak001/World-Population-Data-Insights.git
    ```
 
 2. Install required Python libraries:
