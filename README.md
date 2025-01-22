@@ -71,7 +71,7 @@ World-Population-Data-Analysis/
 
 3. Open and run the Jupyter Notebook:
    ```bash
-   jupyter notebook World_Population_data_analysis.ipynb
+   jupyter notebook World_Population_analysis.ipynb
    ```
 
 4. (Optional) Open `World_Population.pbix` in Power BI for additional visualizations.
