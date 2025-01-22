@@ -76,8 +76,13 @@ World-Population-Data-Analysis/
 
 4. (Optional) Open `World_Population.pbix` in Power BI for additional visualizations.
 
+## 📑 Keywords
+- Data Science
+-  Data Visualization
+-  World Population
+-  Python
+-  Power BI
+  
 ## ⭐ Stay Updated
 Star this repository to keep track of the latest developments and insights!
 
-## 📑 Keywords
-Data Science, Data Visualization, World Population, Python, Power BI
